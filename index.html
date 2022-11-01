@@ -27,13 +27,30 @@
         <!----------------------------- MAIN ---->
         <main class="pl-20 pb-16 mb-32 flex flex-col h-[680px] justify-end ">
             <h1 class="text-6xl">Hello there!</h1>
-            <p class="text-4xl">I'm <strong class="hover:text-red-600 font-medium">Loreto Vásquez,</strong> <span class="hover:text-amber-500 font-medium">Junior Front End Developer </span><br> 
+            <p class="text-4xl">I'm <strong class="hover:text-red-600 font-medium hover:cursor-pointer">Loreto Vásquez,</strong> <span class="hover:text-amber-500 font-medium">Junior Front End Developer </span><br> 
             and internet enthusiast with an appetite for <strong class="hover:text-blue-700 font-medium">science and technology</strong>, <br> 
             based in <span class="hover:text-green-700 font-medium">Galicia, Spain.</span></p>
         </main>
         <!----------------------------- PROJECTS --->
         <section id="projects">
             <h2 class="text-5xl text-center p-12">Projects</h2>
+
+            <!------------------------------ NEWS HOMEPAGE -->
+            <div class="flex items-center px-8 h-[680px]"> 
+                <div class="w-1/2 relative transition ease-in-out hover:-translate-y-1 hover:shadow-lg">
+                    <a href="https://siempreeselfindelmundo.github.io/news-homepage-main/" class="h-full" target="_blank"><img src="assets/screenshot.png" alt="screenshot of website" loading="lazy">
+                        <div class="absolute inset-0 h-full w-full bg-green-700 opacity-0 hover:opacity-100 transition ease-in-out flex justify-center items-center">
+                            <p class="text-3xl text-white font-light flex items-end">See project <img class="ml-1" src="assets/white-arrow-up-right.svg"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-1/2 pl-12">
+                    <p class=" text-2xl py-2">2022</p>
+                    <a href="https://siempreeselfindelmundo.github.io/news-homepage-main/" class="flex items-end hover:underline decoration-green-700 decoration-4 underline-offset-2" target="_blank"><h3 class="text-5xl">News Homepage</h3> <img src="assets/arrow-up-right.svg"></a>
+                    <p class="text-lg">Development for the <a href="https://www.frontendmentor.io/">Front End Mentor</a> challenge, a website where you can solve real-world HTML, CSS and Javascript challenges whilst working to professional designs.</p>
+                    <p class="text-lg text-gray-400 font-light">Technologies used: HTML, TailwindCSS, Javascript.</p>
+                </div>
+            </div>
         <!------------------------------ POSTALES -->
             <div class="flex items-center px-8 h-[680px]"> 
                 <div class="w-1/2 pl-12">
@@ -115,7 +132,7 @@
         <!------------------------------ SKILLS AND TECHNOLOGIES -->
             <section class="p-12 grid grid-cols-1 justify-center">
                 <h3 class="text-5xl text-center">Skills & technologies</h3>
-                <div class="flex items-baseline pt-12 justify-center">
+                <div class="flex items-baseline pt-12 justify-center space-x-16">
                     <div class="w-16 mx-5 flex flex-col items-center">
                         <img src="assets/html-1.svg" alt="Html5" class="hover:-translate-y-1 transform transition ease-in-out">
                         <p class="pt-5">HTML5</p>
@@ -136,6 +153,8 @@
                         <img src="assets/tailwind-css-2.svg" alt="TailwindCSS" class="hover:-translate-y-1 transform transition ease-in-out">
                         <p class="pt-5">TailwindCSS</p>
                     </div>
+                </div>  
+                <div class="flex items-baseline pt-12 justify-center">
                     <div class="w-16 mx-5 flex flex-col items-center">
                         <img src="assets/firebase-1.svg" alt="Firebase" class="hover:-translate-y-1 transform transition ease-in-out">
                         <p class="pt-5">Firebase</p>
@@ -152,15 +171,16 @@
                         <img src="assets/bootstrap-5-1.svg" alt="Bootstrap" class="hover:-translate-y-1 transform transition ease-in-out">
                         <p class="pt-5">Bootstrap</p>
                     </div>
+                    <div class="w-16 mx-5 flex flex-col items-center">
+                        <img src="assets/php.svg" alt="PHP" class="hover:-translate-y-1 transform transition ease-in-out">
+                        <p class="pt-5">PHP</p>
+                    </div>
                 </div>  
                 
                 <div class="pt-12">
                     <h3 class="text-5xl pt-10 text-center">Currently studying</h3>
                     <div class="flex items-baseline pt-12 justify-center">
-                        <div class="w-16 mx-5 flex flex-col items-center">
-                            <img src="assets/php.svg" alt="PHP" class="hover:-translate-y-1 transform transition ease-in-out">
-                            <p class="pt-5">PHP</p>
-                        </div>
+                        
                         <div class="w-16 mx-5 flex flex-col items-center">
                             <img src="assets/nextjs-2.svg" alt="Nextjs" class="hover:-translate-y-1 transform transition ease-in-out">
                             <p class="pt-5">Next.js</p>
@@ -199,7 +219,7 @@
         <button class="hidden fixed bottom-5 right-8 z-50 text-black cursor-pointer p-2 rounded-full hover:bg-amber-500 active:bg-blue-700" onclick="topFunction()" id="myBtn"> <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg></button>
         <!-------------------------- FOOTER --->
         <section class="bg-black text-white py-6 text-center">
-            <p>Portfolio 2021-2022, developed with ♥︎ by Loreto Vásquez</p>
+            <p>Portfolio 2022-2023, developed with ♥︎ by Loreto Vásquez</p>
         </section>
     
     
